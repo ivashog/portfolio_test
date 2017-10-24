@@ -1,0 +1,15 @@
+{
+  "name": "site-portfolio",
+  "version": "1.0.0",
+  "description": "my site portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Olexiy",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
