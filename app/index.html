@@ -2,19 +2,97 @@
 <html lang="ru-RU">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1230, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная станица</title>
+    <!-- SEO -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- CSS -->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <!-- JS -->
 </head>
 <body>
-    <h1>Test run!</h1>
-    <h2>Подзаголовок</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum repellendus architecto atque, quis animi molestias tenetur velit, ea doloremque reprehenderit cumque odio? At dolorem deleniti reprehenderit iste hic error non perferendis dolore sit natus voluptate nulla laboriosam soluta, voluptatum tempora, recusandae ex nemo. Hic dolores error aliquid maxime, ullam dignissimos?</p>
-    <form action="" method="get">
-        <input type="text" name="text" id="text" placeholder="Введите имя">
-    </form>
+    <!--[if lt IE 8]>
+        <p class="browser-old">Ваш браузер <strong>устарел</strong>!
+        Пожалуйста <a href="https://www.microsoft.com/uk-ua/windows/microsoft-edge">обновите</a> его.</p>
+    <![endif]-->
+    <div class="wraper">
+        <header class="page-header">
+            <div class="container container-header">
+                <a href="#" class="logo">
+                    <img src="" alt="logo" class="logo__img">
+                    <span class="logo__text">
+                        Loftschool. От мыслителя к создателю
+                    </span>
+                </a>
+                <ul class="socials">
+                    <li class="socials__item">
+                        <a href="" class="socials_item-link">vkontakte</a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials_item-link">facebook</a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials_item-link">twiter</a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="" class="socials_item-link">github</a>
+                    </li>
+                </ul> 
+            </div>
+        </header>
+        <main class="content">
+            <div class="container">
+                <acide class="sidebar">
+                    <nav class="menu">
+                        <ul class="menu__wraper">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Обо мне</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Мои работы</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Связатся со мной</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="contacts">
+                        <div class="contacts__title">Контакты</div>
+                        <ul class="contacts__list">
+                            <li class="contacts__item"></li>
+                            <li class="contacts__item"></li>
+                            <li class="contacts__item"></li>
+                        </ul>
+                    </div>
+                </acide>
+                <div class="content__area">
+                    <section class="content__section">
+                        <h2 class="content__title">Основная иноформация</h2>
+                    </section>
+                    <section class="content__section">
+                        <h2 class="content__title">Опыт работы</h2>
+                    </section>
+                    <section class="content__section">
+                        <h2 class="content__title">Образование</h2>
+                    </section>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="loock"></div>
+            <div class="copyright">
+                <p>© 2015. Это мой сайт, пожалуйста, не копируйте и не воруйте его</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--<script>window.jQuery || document.write('<script src="bower/jquery/jquery.js"><\/script>')</script>-->
     <script src="bower/jquery/jquery.js"></script>
     <script src="js/main.js"></script>
 </body>
